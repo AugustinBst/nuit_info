@@ -1,5 +1,10 @@
+.titre1 {
+    color: #2b2d42;
+    font-family: 'Kanit', sans-serif;
+
+}
 .menu {
-    background-color: crimson;
+    background-color: #d90429;
 }
  nav ul li{
     list-style: none;
@@ -8,8 +13,10 @@
 }
 
 ul li a{
-    color: black;
+    color: #2b2d42;
     letter-spacing: 0.1rem;
+    font-family: 'Kanit', sans-serif;
+
 }
 
 ul li a:hover{
@@ -20,4 +27,16 @@ ul li a:hover{
 body {
     margin: 0px;
     padding: 0px;
+    background-color: #dce5e8;
+}
+
+.lien{
+    text-align: center;
+    justify-content: flex-start;
+  }
+.ici {
+    text-align: center  ;
+}
+.img_src {
+    text-align: center;
 }
