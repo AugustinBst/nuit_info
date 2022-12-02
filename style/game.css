@@ -1,0 +1,89 @@
+/* region phone */
+
+@media screen and (min_width: 0px) and (max-width: 767px) {
+
+}
+
+/* region tablet */
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+
+}
+
+/* region desktop */
+
+@media screen and (min-width: 1024px) {
+
+}
+
+head {
+    color: #2b2d42;
+}
+.titre1 {
+    width: 1025px;
+    text-align: center;
+    background-color: #ffd8cd;
+    color: #282b49;
+    font-family: 'Kanit', sans-serif;
+    margin: -35px auto;
+    padding: 50px;
+}
+.menu {
+    width: 1125px;
+    background-color: #ffd8cd;
+    margin: auto;
+}
+ nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+ul li a{
+    width: 500px;
+    margin: auto;
+    color: #2b2d42;
+    letter-spacing: 0.1rem;
+    font-family: 'Kanit', sans-serif;
+    align-items: center;
+
+}
+
+ul li a:hover{
+    padding: 20px 20px;
+    background-color: #ffd8cd;
+    margin-top: -10px;
+    text-transform: uppercase;
+    border-radius: 30% 5% 30% 5%;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #dce5e8;
+}
+.lien{
+    text-align: center;
+    justify-content: flex-start;
+}
+.ici {
+    text-align: center  ;
+}
+.img_src {
+    text-align: center;
+}
+.video {
+    position: relative;
+    width: 1000px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.nous {
+    width: 1000px;
+    margin: auto;
+}
+
+ul {
+    text-align: center;
+    margin: auto;
+}
