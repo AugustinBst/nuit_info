@@ -29,8 +29,6 @@ ul li a{
     font-family: 'Kanit', sans-serif;
 }
 ul li a:hover{
-    /* color: rgb(0, 179, 255);
-    text-decoration: underline; */
     padding: 10px 20px;
     background-color: #ffd8cd;
     margin-top: -10px;
@@ -50,4 +48,16 @@ body {
 }
 .img_src {
     text-align: center;
+}
+.video {
+    position: relative;
+    width: 1000px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.nous {
+    width: 1000px;
+    margin: auto;
 }
