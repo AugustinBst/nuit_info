@@ -1,35 +1,42 @@
-.titre1 {
-    color: #2b2d42;
-    font-family: 'Kanit', sans-serif;
 
+head {
+    color: #2b2d42;
+}
+.titre1 {
+    width: 1025px;
+    text-align: center;
+    background-color: #ffd8cd;
+    color: #282b49;
+    font-family: 'Kanit', sans-serif;
+    margin: -35px auto;
+    padding: 50px;
 }
 .menu {
-    background-color: #d90429;
+    width: 1125px;
+    background-color: #ffd8cd;
+    margin: auto;
 }
  nav ul li{
     list-style: none;
     display: inline-block;
     padding: 20px;
 }
-
 ul li a{
+    width: 500px;
+    margin: auto;
     color: #2b2d42;
     letter-spacing: 0.1rem;
     font-family: 'Kanit', sans-serif;
-
 }
-
 ul li a:hover{
     color: rgb(0, 179, 255);
     text-decoration: underline;
 }
-
 body {
     margin: 0px;
     padding: 0px;
     background-color: #dce5e8;
 }
-
 .lien{
     text-align: center;
     justify-content: flex-start;
