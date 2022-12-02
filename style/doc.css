@@ -16,9 +16,13 @@ h1 {
     background-color: #ffd8cd;
     margin: auto;
 }
+nav ul a{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
 
 ul a{
-    width: 500px;
     margin: auto;
     color: #2b2d42;
     letter-spacing: 0.1rem;
@@ -38,4 +42,10 @@ body {
 .lien{
     text-align: center;
     justify-content: flex-start;
+}
+.site{
+    text-align: center;
+}
+.photo{
+    text-align: center;
 }
