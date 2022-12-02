@@ -19,7 +19,7 @@
 head {
     color: #2b2d42;
 }
-.titre1 {
+.titre2 {
     width: 1025px;
     text-align: center;
     background-color: #ffd8cd;
@@ -32,11 +32,6 @@ head {
     width: 1125px;
     background-color: #ffd8cd;
     margin: auto;
-}
- nav ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 20px;
 }
 ul li a{
     width: 500px;
@@ -59,22 +54,4 @@ body {
 .lien{
     text-align: center;
     justify-content: flex-start;
-}
-.ici {
-    text-align: center  ;
-}
-.img_src {
-    text-align: center;
-}
-.video {
-    position: relative;
-    width: 1000px;
-    justify-content: center;
-    margin: auto;
-    text-align: center;
-    align-items: center;
-}
-.nous {
-    width: 1000px;
-    margin: auto;
 }
