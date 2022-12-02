@@ -4,19 +4,19 @@ var text_lose = "Passer sur le site de aides : https://www.aides.org/"
 
 function first(element1, element2, element3){
     if (lock === 0) {
-        element1.style.backgroundColor = "lightgreen";
+        element1.style.backgroundColor = "red";
         element2.style.backgroundColor = "red";
-        element3.style.backgroundColor = "red";
-        document.getElementById("answer_vih").innerHTML = text_win;
+        element3.style.backgroundColor = "lightgreen";
+        document.getElementById("answer_vih").innerHTML = text_lose;
         lock = 1;
     }
 }
 
 function second(element1, element2, element3){
     if (lock === 0) {
-        element1.style.backgroundColor = "lightgreen";
+        element1.style.backgroundColor = "red";
         element2.style.backgroundColor = "red";
-        element3.style.backgroundColor = "red";
+        element3.style.backgroundColor = "lightgreen";
         document.getElementById("answer_vih").innerHTML = text_lose;
         lock = 1;
     }
@@ -24,10 +24,10 @@ function second(element1, element2, element3){
 
 function third(element1, element2, element3){
     if (lock === 0) {
-        element1.style.backgroundColor = "lightgreen";
+        element1.style.backgroundColor = "red";
         element2.style.backgroundColor = "red";
-        element3.style.backgroundColor = "red";
-        document.getElementById("answer_vih").innerHTML = text_lose;
+        element3.style.backgroundColor = "lightgreen";
+        document.getElementById("answer_vih").innerHTML = text_win;
         lock = 1;
     }
 }

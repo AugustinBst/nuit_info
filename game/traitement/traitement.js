@@ -1,5 +1,5 @@
 var lock = 0;
-var text_win = "GG et oui c'est comme sa le traitement"
+var text_win = "Bravo"
 var text_lose = "Passer sur le site de aides : https://www.aides.org/"
 
 function first(element1, element2, element3){
