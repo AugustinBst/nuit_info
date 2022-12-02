@@ -1,0 +1,26 @@
+.egg {
+    background-color: crimson;
+}
+
+nav {
+    text-align: center;
+    font-size: 34px;
+}
+
+body {
+    width: 400px;
+    height: 300px;
+    margin:  250px auto ;
+    background-color: #c7b54397;
+    border: 3px solid rgb(0, 0, 0);
+}  
+
+oui {
+    text-align: center;
+    margin:  50px ;
+}
+
+html {
+    background-color: rgba(199, 183, 183, 0.584);
+}
+  
