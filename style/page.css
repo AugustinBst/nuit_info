@@ -29,8 +29,12 @@ ul li a{
     font-family: 'Kanit', sans-serif;
 }
 ul li a:hover{
-    color: rgb(0, 179, 255);
-    text-decoration: underline;
+    /* color: rgb(0, 179, 255);
+    text-decoration: underline; */
+    padding: 10px 20px;
+    background-color: #ffd8cd;
+    margin-top: -10px;
+    text-transform: uppercase;
 }
 body {
     margin: 0px;
