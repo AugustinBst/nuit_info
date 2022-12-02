@@ -1,3 +1,20 @@
+/* region phone */
+
+@media screen and (min_width: 0px) and (max-width: 767px) {
+
+}
+
+/* region tablet */
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+
+}
+
+/* region desktop */
+
+@media screen and (min-width: 1024px) {
+
+}
 
 head {
     color: #2b2d42;
